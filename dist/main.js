@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("console.log('Hello from JavaScript!');\r\n\r\n\r\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\r\n\r\nlet fromNow = moment().startOf('day').fromNow();        // 20 hours ago\r\n\r\nconsole.log('fromNow: ' + fromNow);\n\n//# sourceURL=webpack:///./index.js?");
+eval("console.log('Hello from JavaScript! Update with webpack.config.js.');\r\n\r\n\r\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\r\n\r\nlet fromNow = moment().startOf('day').fromNow();        // 20 hours ago\r\nconsole.log('fromNow: ' + fromNow);\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
