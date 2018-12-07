@@ -12,3 +12,6 @@ console.log('fromNow: ' + fromNow);
 let name = 'Dmitriy';
 let time = 'today';
 console.log(`Hello ${name}, how are you ${time}?`); // string has to be with tildas, not quotes!
+
+// test webpack auto-rebuild, run by "npm run watch"
+console.log('I want an auto-rebuild!');
